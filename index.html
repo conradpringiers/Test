@@ -1,0 +1,21 @@
+<script>let code = prompt("code:");
+
+if (code.toLowerCase() == "1234") {
+  console.log("connection...");
+  setTimeout(connecting, 2000);
+}
+function connecting() {
+  console.log("connection accepted !");
+  var message = prompt("message:");
+  console.log("sending...");
+  setTimeout(sending, 5000);
+  console.log("message is send !");
+}
+
+function sending() {
+console.log("message is send !");
+ }
+
+
+
+</script>
